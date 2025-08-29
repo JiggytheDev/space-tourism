@@ -154,6 +154,12 @@ body {
         font-size: 17px;
         text-align: center;
     }
+
+    .home-explore {
+        place-content: center;
+        color: #fff;
+        opacity: 50%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -193,9 +199,12 @@ body {
     .home-explore {
         width: 144px;
         height: 144px;
+        place-content: center;
     }
 
     .home-explore a {
         font-size: 17px;
+        color: #fff;
+        opacity: 50%;
     }
 }
