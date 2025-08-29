@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(./starter-code/assets/home/background-home-desktop.jpg);
+    background-image: url(./assests/home/background-home-desktop.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -186,7 +186,7 @@ li:hover a::after {
 @media (max-width: 1023px) {
     body {
         height: 100%;
-        background-image: url(../assets/home/background-home-tablet.jpg);
+        background-image: url(./assests/home/background-home-tablet.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -242,7 +242,7 @@ li:hover a::after {
 
 @media (max-width: 767px) {
     body {
-        background-image: url(../assets/home/background-home-mobile.jpg);
+        background-image: url(./assests/home/background-home-mobile.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
