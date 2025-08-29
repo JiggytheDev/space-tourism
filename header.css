@@ -61,7 +61,7 @@ li:active::after{
     opacity: 50%;
 }
 
-li:hover a::after {
+.links li:hover a::after {
     content: "";
     position: absolute;
     height: 4px;
@@ -72,20 +72,35 @@ li:hover a::after {
     width: 100%;
     transition: all 5s ease;
 }
-@media only screen and (max-width:768px) {
- .links::before {
+@media (max-width: 1250px) {
+
+    .links::before {
         display: none;
     }
 
     .links {
         width: 80%;
-        gap: 30px;
-        font-size: 14px;
+    }
+}
+@media only screen and (max-width:1060px) {
+
+
+    .links li:hover a::after {
+    bottom: -110%;
+}
+    .links::before {
+        display: none;
+    }
+
+    .links {
+        width: 80%;
+        gap: 40px;
+        font-size: 12px;
     }
    
 }
 
-@media screen and (max-width:530px) {
+@media screen and (max-width:600px) {
     nav{
         width: 90%;
     }
