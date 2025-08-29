@@ -36,6 +36,22 @@ main{
     margin-top: 60px;
      color: #b9b9b9;
 }
+.section-1 {
+    animation: slideIn 2s ease;
+}
+.section-2 {
+    animation: slideUp 2s ease;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-650px);
+    }
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(100px);
+    }
+}
 .destination-category{
     display:flex;
     gap: 30px;
