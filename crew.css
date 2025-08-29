@@ -255,6 +255,10 @@ body {
     align-items: center;
   }
 
+  .meet span, .meet h3 {
+      height: 19px;
+  }
+
   .crew-about {
     width: 327px;
     gap: 32px;
