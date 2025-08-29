@@ -86,7 +86,7 @@ li:active::after{
 
 
     .links li:hover a::after {
-    bottom: -110%;
+    bottom: -200%;
 }
     .links::before {
         display: none;
