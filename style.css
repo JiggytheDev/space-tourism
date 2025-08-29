@@ -201,16 +201,10 @@ body {
         width: 144px;
         height: 144px;
         place-content: center;
+        overflow:visible ;
     }
 
     .home-explore a {
         font-size: 17px;
-        color: #000;
-        opacity: 50%;
-        z-index: 33;
-        place-content: center;
-        position: absolute;
-        top: -50%;
-        right: -50%;
     }
 }
