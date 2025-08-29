@@ -1,0 +1,122 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    width: 90%;
+}
+
+nav img {
+    margin-left: 40px;
+    position: relative;
+}
+
+.links::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 55%;
+    background-color: #d0d6f9;
+    left: -49%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    align-items: center;
+    width: 60%;
+    gap: 60px;
+    color: #fff;
+    backdrop-filter: blur(40px);
+    position: relative;
+    background-color: hsla(240, 100%, 50%, 0.055);
+}
+
+.links li {
+    list-style: none;
+}
+
+.links .close {
+    display: none;
+}
+
+nav .hamburger {
+    display: none;
+}
+
+li a {
+    color: #fff;
+    position: relative;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    display: flex;
+    flex-flow: row nowrap;
+    text-decoration: none;
+}
+
+li:active::after{
+    background-color: #fff;
+    opacity: 50%;
+}
+
+li:hover a::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background-color: #d0d6f9;
+    opacity: 50%;
+    left: 0;
+    bottom: -210%;
+    width: 100%;
+    transition: all 5s ease;
+}
+@media only screen and (max-width:768px) {
+ .links::before {
+        display: none;
+    }
+
+    .links {
+        width: 80%;
+        gap: 30px;
+        font-size: 14px;
+    }
+   
+}
+
+@media screen and (max-width:530px) {
+     .links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0%;
+        right: 0;
+        width: 80%;
+        height: 100%;
+        z-index: 77;
+        align-items: start;
+    }
+
+    .links .close {
+        display: flex;
+        position: absolute;
+        top: 7%;
+        right: 7%;
+        z-index: 77;
+    }
+
+    nav {
+        margin: 10px;
+    }
+
+    nav img {
+        margin-left: 14px;
+    }
+
+    nav .hamburger {
+        display: flex;
+        position: relative;
+    }
+}

@@ -9,6 +9,7 @@ body{
     background-image: url(./starter-code/assests/technology/background-technology-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Barlow", sans-serif;
 }
 main{
     margin: 0 auto;
