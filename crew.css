@@ -252,6 +252,7 @@ body {
     height: 19px;
     place-content: center;
     padding-bottom: 50px;
+    align-items: center;
   }
 
   .crew-about {
