@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(../assets/crew/background-crew-desktop.jpg);    
+  background-image: url(./starter-code/assets/crew/background-crew-desktop.jpg);    
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -225,7 +225,7 @@ li:hover a::after {
 
 @media (max-width: 1023px) {
   body {
-    background-image: url(../assets/crew/background-crew-tablet.jpg);
+    background-image: url(./starter-code/assets/crew/background-crew-tablet.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -299,7 +299,7 @@ li:hover a::after {
 
 @media (max-width: 767px) {
   body {
-    background-image: url(../assets/crew/background-crew-mobile.jpg);
+    background-image: url(./starter-code/assests/crew/background-crew-mobile.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
