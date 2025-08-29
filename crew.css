@@ -16,73 +16,6 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1rem auto;
-}
-
-nav img {
-  margin-left: 40px;
-  position: relative;
-}
-
-.links::before {
-  content: "";
-  position: absolute;
-  height: 1px;
-  width: 55%;
-  background-color: #d0d6f9;
-  left: -49%;
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-  padding: 35px;
-  align-items: center;
-  width: 60%;
-  gap: 60px;
-  color: #fff;
-  backdrop-filter: blur(40px);
-  position: relative;
-}
-
-.links li {
-  list-style: none;
-}
-
-.links .close {
-  display: none;
-}
-
-nav .hamburger {
-  display: none;
-}
-
-li a {
-  color: #fff;
-  position: relative;
-  word-spacing: 5px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 14px;
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-li:hover a::after {
-  content: "";
-  position: absolute;
-  height: 2px;
-  background-color: #fff;
-  opacity: 50%;
-  left: 0;
-  bottom: -210%;
-  width: 100%;
-}
-
 .container {
     height: 100%;
     width: 100%;
@@ -231,15 +164,6 @@ li:hover a::after {
     background-repeat: no-repeat;
     overflow: visible;
   }
-
-  .links::before {
-    display: none;
-  }
-
-  .links {
-    width: 80%;
-  }
-
   .container {
     flex-direction: column;
     align-items: center;
@@ -308,40 +232,6 @@ li:hover a::after {
     height: 100%;
     overflow: visible;
   }
-
-  .links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 0%;
-    right: 0;
-    width: 80%;
-    height: 100%;
-    z-index: 77;
-    align-items: start;
-  }
-
-  .links .close {
-    display: flex;
-    position: absolute;
-    top: 7%;
-    right: 7%;
-    z-index: 77;
-  }
-
-  nav {
-    margin: 10px;
-  }
-
-  nav img {
-    margin-left: 14px;
-  }
-
-  nav .hamburger {
-    display: flex;
-    position: relative;
-  }
-
   .container {
     width: 100%;
     padding: 24px;
