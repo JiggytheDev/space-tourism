@@ -205,7 +205,7 @@ body {
 
     .home-explore a {
         font-size: 17px;
-        color: #fff;
+        color: #000;
         opacity: 50%;
         z-index: 33;
         place-content: center;
