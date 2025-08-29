@@ -99,6 +99,12 @@ li:active::after{
     }
    
 }
+@media screen and (max-width:755px){
+    .links li:hover a::after {
+    bottom: -110%;
+}
+
+}
 
 @media screen and (max-width:600px) {
     nav{
