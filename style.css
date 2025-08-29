@@ -209,5 +209,8 @@ body {
         opacity: 50%;
         z-index: 33;
         place-content: center;
+        position: absolute;
+        top: -50%;
+        right: -50%;
     }
 }
